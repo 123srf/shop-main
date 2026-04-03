@@ -1,0 +1,9 @@
+planset 768px — iPad/planşet
+@media (max-with:768px){
+
+}
+telefon  576px
+
+@media (max-with:576px){
+
+}

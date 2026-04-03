@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop-main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="shop.js"></script>
+    
+</head>
+<body>
+    <button id="upArrow"><i class="fa-solid fa-angles-up" style="color: rgb(255, 255, 255);"></i></button>
+    <div id="pencil">
+        <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i>
+        <div class="color-menu">
+            <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i>
+            <div class="color-option" data-color="#007BFF" style="background-color:#007BFF"></div>
+            <div class="color-option" data-color="#FF3B3B" style="background-color:#FF3B3B"></div>
+            <div class="color-option" data-color="#00C853" style="background-color:#00C853"></div>
+        </div>
+    </div>
+    </div>
+    <section>
+        <header>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, molestias at maiores repudiandae aspernatur est sed nostrum magni quibusdam consequatur quas facere quaerat veniam nobis repellendus velit! Possimus provident asperiores necessitatibus, quasi, quidem nostrum recusandae temporibus fuga repellat repellendus similique.
+        </header>
+        <div id="section">
+            <h1>Shop</h1>
+            <p></p>
+            <div><span>Home</span> <h2>></h2> Shop</div>
+        </div>
+    </section>
+    <main>
+        <div id="main">
+            <div id="main-page-1">
+                <div class="Price">
+                    <p>Price ($)</p>
+                    <div class="slider-container">
+                        <div class="slider-track"></div>
+                        <div class="slider-range" id="slider-range"></div>
+                        <input type="range" id="minRange" min="0" max="130" value="0">
+                        <input type="range" id="maxRange" min="0" max="130" value="130">
+                    </div>
+                    <div class="filter">
+                        <div class="filterclass">Filter</div>
+                        <div class="price-display">Price: $<span id="minVal">0</span> - $<span id="maxVal">100</span></div>
+                    </div>
+                </div>
+                <div class="Categories">
+                    <div class="categories-s">
+
+                        <h1>Categories</h1>
+                        <div class="Catagoris-filter">
+                            <p><a href="#"></a> Car Wash Soaps </p>
+                            <p><a href="#"></a> Ceramic Coating Kits</p>
+                            <p><a href="#"></a> Detailing Brushes</p>
+                            <p><a href="#"></a> Interior Cleaners</p>
+                            <p><a href="#"></a> Microfiber Towels</p>
+                            <p><a href="#"></a> Tire & Wheel Cleaners</p>
+                            <p><a href="#"></a> Uncategorized</p>
+                            <p><a href="#"></a> Waxes & Sealants</p>
+                          </div>
+
+                    </div>
+                </div>
+                <div class="Brands">
+                    <div class="brands-s">
+                            <h1>Brands</h1>
+                        <div class="Catagoris-filter">
+                            <p><a href="#"></a> Detail Express (1) </p>
+                            <p><a href="#"></a>Formula 1 (2)</p>
+                            <p><a href="#"></a> Kenolon (2)</p>
+                            <p><a href="#"></a> Meguiar's (2)</p>
+                            <p><a href="#"></a> SONAX (2)</p>
+                            <p><a href="#"></a> Turtle (3)</p>
+                            <p><a href="#"></a> Wax 3D (1)</p>
+                            <p><a href="#"></a> West Coast Customs </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-page-2">
+                <div id="Showing-header">
+                
+                    <div class="Showing-sentence">Showing 1–8 of 12 results</div>
+                    <div class="Showing-sort"><select name="sort" id="sort">
+                        <option value="newness">Sort by latest</option>
+                        <option value="default">Default sorting</option>
+                        <option value="popularity">Sort by popularity</option>
+                        <option value="rating">Sort by average rating</option>
+                        <option value="price-low-high">Sort by price: low to high</option>
+                        <option value="price-high-low">Sort by price: high to low</option></select>
+                    </div>
+                </div>
+                <div id="Showing-carts-picture">
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/soap-2a.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>3D Pink Car Soap – pH </h1>
+                                <h1>Balanced Formula</h1>
+                            </div>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            <p>$29.92</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/tire-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Black Magic All Wheel </h1>
+                                <h1>Foaming Cleaner</h1>
+                            </div>
+
+                            <p>$6.49</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/wax-2a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Formula 1 Bug & Tar </h1>
+                                <h1>Remover – 16oz</h1>
+                            </div>
+
+                            <p>$6.99</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/interior-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Formula 1 Detail Express </h1>
+                                <h1>Multi-Purpose Interior</h1>
+                                <h1>Cleaner</h1>
+                            </div>
+
+                            <p>$24.99</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/coating-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Kenolon Ceramic Shield V1</h1>
+                                <h1>Box – SiO₂ Coating Kit</h1>
+                            </div>
+
+                            <p>$59.65</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/coating-1b-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Meguiar’s DA Microfiber </h1>
+                                <h1>Correction & Finishing Kit</h1>
+                            </div>
+
+                            <p>$129.00</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/soap-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Meguiar’s Gold Class CarxH </h1>
+                                <h1>Wash Shampoo</h1>
+                            </div>
+                            <p>⭐⭐⭐⭐⭐</p>
+                            <p>$11.99</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/soap-3a-300x300.webp" alt="">
+                             <div class="asemce">-12%</div>
+                             <div class="asemce1">sale</div>
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Nanoskin NANO SUDS</h1>
+                                <h1>Balanced Formula</h1>
+                            </div>
+
+                            <p style="gap: 5px;"><span style="text-decoration: line-through;color: #B8B8B8;"> $32.29</span>$29.00</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                </div>
+                <div id="Showing-cart-picture-2">
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/brush-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Premium Foam Applicator</h1>
+                                <h1>Pad</h1>
+                            </div>
+
+                            <p>$2.99</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/towel-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Premium Microfiber</h1>
+                                <h1>Cleaning Towel</h1>
+                            </div>
+
+                            <p>$7.49</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/wax-3a-300x300.webp"alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1> SONAX XTREME Polish +</h1>
+                                <h1>Wax 3</h1>
+                            </div>
+
+                            <p>$18.95</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-picture">
+                            <img   src="./picture/wax-1a-300x300.webp" alt="">
+                            <div class="cart-picture-menu">
+                                <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="cart-sentence">
+                            <div>
+                                <h1>Turtle Wax Original Hard</h1>
+                                <h1>Shell Shine Car Wax</h1>
+                            </div>
+
+                            <p>$7.49</p>
+                        </div>
+                        <div class="cart-button">Add to cart</div>
+                    </div>
+                </div>
+                <div id="next">
+                    <div class="one-nuber" id="n1">1</div>
+                    <div class="two-nuber" id="n1">2</div>
+                    <div class="next-line-nuber" id="n1"><i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <div id="next-2" style="display: none;">
+                    <div class="next-line-nuber" id="n1"><i class="fa-solid fa-arrow-left-long"></i></div>
+                    <div class="one-nuber" id="n1">1</div>
+                    <div class="two-nuber" id="n1">2</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
